@@ -130,13 +130,13 @@
 ფორმა,form
 სასჯელი,sentence
 დიდი,great
-|ვფიქრობ,|,think
-|ამბობენ,|,say
+"ვფიქრობ,",think
+"ამბობენ,",say
 დაეხმაროს,help
 დაბალი,low
 ონლაინ,line
 განსხვავდება,differ
-|თავის მხრივ,|,turn
+"თავის მხრივ,",turn
 მიზეზი,cause
 ბევრი,much
 ნიშნავს,mean
@@ -162,7 +162,7 @@
 დაწერა,write
 რომ,would
 როგორიცაა,like
-|ასე რომ,|,so
+"ასე რომ,",so
 ამ,these
 მისი,her
 ხანგრძლივი,long
@@ -265,14 +265,14 @@
 მოვისმინოთ,hear
 ცხენი,horse
 დაჭრილი,cut
-|დარწმუნებული ვარ,|,sure
+"დარწმუნებული ვარ,",sure
 დაათვალიერეს,watch
 ფერი,color
 სახე,face
 ხის,wood
 მთავარი,main
 ღია,open
-|როგორც ჩანს,|,seem
+"როგორც ჩანს,",seem
 ერთად,together
 შემდეგი,next
 თეთრი,white
@@ -335,7 +335,7 @@ mark,mark
 ფართი,area
 ნახევარი,half
 როკი,rock
-|იმისათვის,|,order
+"იმისათვის,",order
 ცეცხლის,fire
 სამხრეთ,south
 პრობლემა,problem
@@ -343,7 +343,7 @@ mark,mark
 განუცხადა,told
 იცოდა,knew
 გაივლის,pass
-|მას შემდეგ, რაც|,since
+"მას შემდეგ, რაც",since
 დაბრუნება,top
 მთელი,whole
 მეფე,king
@@ -351,7 +351,7 @@ mark,mark
 დუიმიანი,inch
 გამრავლების,multiply
 არაფერი,nothing
-|რა თქმა უნდა,|,course
+"რა თქმა უნდა,",course
 დარჩება,stay
 წინა,wheel
 სრული,full
@@ -446,7 +446,7 @@ ran,ran
 ნათელი,clear
 კუდი,tail
 წარმოების,produce
-|ის ფაქტი,|,fact
+"ის ფაქტი,",fact
 ფართი,space
 ისმის,heard
 საუკეთესო,best
@@ -471,7 +471,7 @@ ran,ran
 ექვს,six
 მაგიდა,table
 მოგზაურობა,travel
-|ნაკლებია,|,less
+"ნაკლებია,",less
 დილით,morning
 ათი,ten
 მარტივი,simple
@@ -488,7 +488,7 @@ ran,ran
 პირი,person
 ფული,money
 ემსახურება,serve
-|როგორც ჩანს,|,appear
+"როგორც ჩანს,",appear
 გზის,road
 რუკა,map
 წვიმა,rain
@@ -500,14 +500,14 @@ ran,ran
 ხმა,voice
 ენერგიის,energy
 hunt,hunt
-|სავარაუდოა,|,probable
+"სავარაუდოა,",probable
 საწოლის,bed
 ძმა,brother
 კვერცხი,egg
 ride,ride
 საკანში,cell
-|მჯერა,|,believe
-|ალბათ,|,perhaps
+"მჯერა,",believe
+"ალბათ,",perhaps
 აირჩიოთ,pick
 მოულოდნელი,sudden
 იმედი,count
@@ -525,7 +525,7 @@ ride,ride
 წონა,weight
 ზოგადი,general
 ყინულზე,ice
-|მიუხედავად იმისა,|,matter
+"მიუხედავად იმისა,",matter
 წრე,circle
 წყვილი,pair
 მოიცავს,include
@@ -592,7 +592,7 @@ syllable,syllable
 დათვი,bear
 ფერი,finish
 ბედნიერი,happy
-|იმედი მაქვს,|,hope
+"იმედი მაქვს,",hope
 ყვავილი,flower
 შეკერილ,clothe
 უცნაური,strange
@@ -615,7 +615,7 @@ syllable,syllable
 თესლი,seed
 ტონი,tone
 შეუერთდება,join
-|ვარაუდობენ,|,suggest
+"ვარაუდობენ,",suggest
 სუფთა,clean
 შესვენების,break
 ქალბატონს,lady
@@ -762,7 +762,7 @@ syllable,syllable
 ცალკე,separate
 რთული,difficult
 ექიმი,doctor
-|გთხოვთ,|,please
+"გთხოვთ,",please
 დაცვა,protect
 შუადღისას,noon
 მოსავლის,crop
@@ -794,7 +794,7 @@ syllable,syllable
 წარმოიდგინეთ,imagine
 გთავაზობთ,provide
 ვეთანხმები,agree
-|ამგვარად,|,thus
+"ამგვარად,",thus
 ნაზი,gentle
 ქალი,woman
 კაპიტანი,captain
@@ -861,7 +861,7 @@ syllable,syllable
 დახარჯავს,spend
 აკორდი,chord
 ცხიმის,fat
-|მოხარული ვარ,|,glad
+"მოხარული ვარ,",glad
 ორიგინალური,original
 წილი,share
 სადგური,station
@@ -980,7 +980,7 @@ syllable,syllable
 შევიკრიბოთ,gather
 მაღაზია,shop
 მონაკვეთი,stretch
-|იმისათვის, რომ|,throw
+"იმისათვის, რომ",throw
 შაინი,shine
 ქონების,property
 სვეტი,column

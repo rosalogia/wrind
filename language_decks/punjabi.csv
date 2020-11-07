@@ -1,9 +1,9 @@
 ਦੇ ਤੌਰ ਤੇ,as
 ਮੈਨੂੰ,I
 ਉਸ ਦੇ,his
-|, ਜੋ ਕਿ|,that
+", ਜੋ ਕਿ",that
 ਉਸ ਨੇ,he
-|ਸੀ,|,was
+"ਸੀ,",was
 ਲਈ,for
 ’ਤੇ,on
 ਹਨ,are
@@ -25,7 +25,7 @@
 ਇਸ ਨੂੰ,it
 ਤੁਹਾਨੂੰ,you
 ਜ,or
-|ਸੀ,|,had
+"ਸੀ,",had
 The,the
 ਦੇ,of
 ਨੂੰ,to
@@ -37,7 +37,7 @@ The,the
 ਬਾਹਰ,out
 ਨੂੰ ਹੋਰ,other
 ਸਨ,were
-|, ਜੋ ਕਿ|,which
+", ਜੋ ਕਿ",which
 ਕਰਦੇ,do
 ਆਪਣੇ,their
 ਵਾਰ,time
@@ -168,7 +168,7 @@ The,the
 ਲੰਬੇ,long
 ਕਰ,make
 ਗੱਲ ਇਹ ਹੈ ਕਿ,thing
-|ਵੇਖੋ,|,see
+"ਵੇਖੋ,",see
 ਨੇ ਉਸ ਨੂੰ,him
 ਦੇ ਦੋ,two
 ਹੈ,has
@@ -275,7 +275,7 @@ The,the
 ਲੱਗਦਾ ਹੈ,seem
 ਇਕੱਠੇ ਹੋ ਕੇ,together
 ਨੂੰ ਅਗਲੇ,next
-|ਚਿੱਟੇ,|,white
+"ਚਿੱਟੇ,",white
 ਬੱਚੇ,children
 ਸ਼ੁਰੂ,begin
 ਮਿਲੀ,got
@@ -452,7 +452,7 @@ The,the
 ਵਧੀਆ,best
 ਘੰਟੇ,hour
 ਬਿਹਤਰ,better
-|ਸੱਚ ਹੈ,|,true
+"ਸੱਚ ਹੈ,",true
 ਦੇ ਦੌਰਾਨ,during
 ਸੌ,hundred
 ਪੰਜ,five
@@ -490,8 +490,8 @@ The,the
 ਦੀ ਸੇਵਾ,serve
 ਵਿਖਾਈ,appear
 ਸੜਕ ’,road
-|ਨਕਸ਼ਾ,|,map
-|, ਮੈਸਿਡੋਨਿਆ,|,rain
+"ਨਕਸ਼ਾ,",map
+", ਮੈਸਿਡੋਨਿਆ,",rain
 ਨਿਯਮ ਦੇ,rule
 ਰਾਜ,govern
 ਖਿੱਚੋ,pull
@@ -548,7 +548,7 @@ am,am
 ਚੌੜਾ,wide
 ਜਹਾਜ਼,sail
 ਸਮੱਗਰੀ,material
-|ਬਾਗ,|,fraction
+"ਬਾਗ,",fraction
 ਜੰਗਲ,forest
 ਬੈਠ,sit
 ਦੀ ਦੌੜ,race
@@ -564,7 +564,7 @@ am,am
 ਕੰਧ,wall
 ਕੈਚ,catch
 ਮਾਊਟ,mount
-|ਚਾਹੁੰਦੇ ਹੋ,|,wish
+"ਚਾਹੁੰਦੇ ਹੋ,",wish
 ਅਸਮਾਨ,sky
 ਬੋਰਡ,board
 ਦੀ ਖ਼ੁਸ਼ੀ,joy
@@ -711,7 +711,7 @@ am,am
 ਧੱਕਾ,push
 ਸੱਤ,seven
 ਪੈਰਾ,paragraph
-|ਤੀਜਾ,|,third
+"ਤੀਜਾ,",third
 ਦੇਣਗੇ,shall
 ਚਾਰ,held
 ਵਾਲ,hair
@@ -831,7 +831,7 @@ guess,guess
 ਘੜੀ ਦੀ,clock
 ਮੇਰੇ ਲਈ,mine
 ਟਾਈ,tie
-|ਦਿਓ,|,enter
+"ਦਿਓ,",enter
 ਮੁੱਖ,major
 ਤਾਜ਼ਾ,fresh
 ਖੋਜ ਨੂੰ,search
@@ -887,7 +887,7 @@ guess,guess
 ਸਹਿਯੋਗ ਨੂੰ,support
 ਬੋਲਣ ਦੀ,speech
 ਸੁਭਾਅ ਨੂੰ,nature
-|ਸੀਮਾ ਹੈ,|,range
+"ਸੀਮਾ ਹੈ,",range
 ਭਾਫ਼,steam
 ਮੋਸ਼ਨ,motion
 ਮਾਰਗ ’,path
@@ -938,7 +938,7 @@ guess,guess
 ਸੁਪਨੇ,dream
 ਸ਼ਾਮ ਨੂੰ,evening
 ਹਾਲਤ,condition
-||| ਜੂਨ|,feed
+| ਜੂਨ,feed
 ਸੰਦ ਹੈ,tool
 ਕੁੱਲ,total
 ਬੁਨਿਆਦੀ,basic

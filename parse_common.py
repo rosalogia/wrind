@@ -50,7 +50,7 @@ for language_name in language_names:
         soup = BeautifulSoup(lang_page.content, "html.parser")
         table_of_words = soup.find("table")
         with open(file_name, 'w', newline='') as csvfile:
-            writer = csv.writer(csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+            writer = csv.writer(csvfile, delimiter=',')
             for row in table_of_words.find_all('tr')[1:]:
                 col = row.find_all('td')
                 try:

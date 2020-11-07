@@ -286,7 +286,7 @@
 группа,group
 всегда,always
 музыка,music
-|тех,|,those
+"тех,",those
 как,both
 знак,mark
 часто,often
@@ -507,7 +507,7 @@
 поездка,ride
 клеток,cell
 верить,believe
-|возможно,|,perhaps
+"возможно,",perhaps
 выбрать,pick
 внезапный,sudden
 считать,count

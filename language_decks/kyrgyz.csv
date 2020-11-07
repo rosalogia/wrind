@@ -66,7 +66,7 @@
 чоң,large
 сыйкырлоо,spell
 кошуу,add
-|ал тургай,|,even
+"ал тургай,",even
 жер,land
 бул жерде,here
 керек,must
@@ -176,7 +176,7 @@
 дагы,more
 күн,day
 мүмкүн,could
-|барып,|,go
+"барып,",go
 келген,come
 кылды,did
 сан,number
@@ -351,7 +351,7 @@
 дюйм,inch
 көп,multiply
 эч нерсе,nothing
-|Албетте,|,course
+"Албетте,",course
 кал,stay
 дөңгөлөк,wheel
 толук,full
@@ -502,12 +502,12 @@
 аң уулоо,hunt
 мүмкүн болгон,probable
 төшөк,bed
-|байке, ини|,brother
+"байке, ини",brother
 жумуртка,egg
 жүрүү,ride
 клетка,cell
 ишенүү,believe
-|балким,|,perhaps
+"балким,",perhaps
 чогултуу,pick
 кокус,sudden
 эсептөө,count
@@ -743,13 +743,13 @@ Sat,sat
 Наркы,value
 салгылаш,fight
 калп,lie
-|сабап,|,beat
+"сабап,",beat
 козгоо,excite
 жаратылыш,natural
 көрүнүш,view
 сезим,sense
 борбор,capital
-|эркин эмес,|,won’t
+"эркин эмес,",won’t
 стул,chair
 коркунуч,danger
 жемиш,fruit
@@ -794,7 +794,7 @@ Sat,sat
 элестетүү,imagine
 камсыз кылуу,provide
 макул,agree
-|Ошентип,|,thus
+"Ошентип,",thus
 жумшак,gentle
 аял,woman
 капитан,captain
@@ -806,7 +806,7 @@ Sat,sat
 коңшу,neighbor
 жуунуу,wash
 жар канат,bat
-|эмес,|,rather
+"эмес,",rather
 эл,crowd
 дан,corn
 салыштыруу,compare
@@ -944,7 +944,7 @@ SUFFIX,suffix
 негизги,basic
 жыт,smell
 өрөөн,valley
-|да,|,nor
+"да,",nor
 эки эсе көп,double
 отургуч,seat
 улантуу,continue
@@ -956,7 +956,7 @@ SUFFIX,suffix
 компания,company
 кемитүү,subtract
 окуя,event
-|атап айтканда,|,particular
+"атап айтканда,",particular
 иш,deal
 сүзүү,swim
 мөөнөт,term

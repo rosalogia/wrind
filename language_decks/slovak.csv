@@ -286,7 +286,7 @@ papier,paper
 skupina,group
 vždy,always
 music,music
-|tie,|,those
+"tie,",those
 ako,both
 značka,mark
 často,often
@@ -341,7 +341,7 @@ na juh,south
 problém,problem
 kus,piece
 povedal,told
-|vedel,|,knew
+"vedel,",knew
 prejsť,pass
 od,since
 top,top
@@ -375,7 +375,7 @@ možné,possible
 lietadlo,plane
 namiesto toho,stead
 suchý,dry
-|zaujímalo by ma,|,wonder
+"zaujímalo by ma,",wonder
 smiech,laugh
 tisíc,thousand
 pred,ago
@@ -500,7 +500,7 @@ oznámenia,notice
 hlas,voice
 energie,energy
 lov,hunt
-|pravdepodobné,|,probable
+"pravdepodobné,",probable
 posteľ,bed
 brat,brother
 vajcia,egg
@@ -525,7 +525,7 @@ hovoriť,speak
 hmotnosť,weight
 všeobecne,general
 ľad,ice
-|ohľadu na to,|,matter
+"ohľadu na to,",matter
 kruh,circle
 pár,pair
 patrí,include
@@ -788,7 +788,7 @@ atóm,atom
 histórie,history
 efekt,effect
 elektrické,electric
-|očakávať, že|,expect
+"očakávať, že",expect
 kosť,bone
 zábradlia,rail
 predstavte si,imagine
@@ -893,7 +893,7 @@ pohyb,motion
 cesta,path
 kvapalina,liquid
 prihlásiť,log
-|znamenalo,|,meant
+"znamenalo,",meant
 podiel,quotient
 zuby,teeth
 škrupina,shell

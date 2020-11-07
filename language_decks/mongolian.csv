@@ -89,7 +89,7 @@
 оролдох,try
 АНУ-ын,us
 дахин,again
-|мал, амьтны|,animal
+"мал, амьтны",animal
 цэг,point
 ээж нь,mother
 дэлхийн,world
@@ -347,7 +347,7 @@
 дээд,top
 бүхэлд нь,whole
 хаан,king
-|гудамж,|,street
+"гудамж,",street
 инчийн,inch
 үржүүлэх,multiply
 юу ч биш,nothing
@@ -374,7 +374,7 @@
 аль болох,possible
 нисэх онгоц,plane
 Үүний оронд,stead
-|хуурай,|,dry
+"хуурай,",dry
 гайхдаг,wonder
 инээд,laugh
 мянган,thousand
@@ -644,7 +644,7 @@
 урсгал,flow
 шударга,fair
 банк,bank
-|цуглуулах,|,collect
+"цуглуулах,",collect
 хадгалах,save
 хяналтын,control
 аравтын,decimal
@@ -734,7 +734,7 @@
 өгүүлбэр,phrase
 чимээгүй,silent
 өндөр,tall
-|элс,|,sand
+"элс,",sand
 хөрс,soil
 өнхрөх,roll
 температур,temperature
@@ -761,9 +761,9 @@
 практик,practice
 тус тусад нь,separate
 хүнд хэцүү,difficult
-|эмч,|,doctor
+"эмч,",doctor
 үү,please
-|хамгаалах,|,protect
+"хамгаалах,",protect
 үд,noon
 газар тариалан,crop
 орчин үеийн,modern
@@ -850,7 +850,7 @@
 ирэх,arrive
 мастер,master
 зам,track
-|эцэг, эх|,parent
+"эцэг, эх",parent
 эрэг,shore
 хэлтэс,division
 хуудас,sheet
@@ -899,7 +899,7 @@
 бүрхүүл,shell
 хүзүү,neck
 хүчилтөрөгчийн,oxygen
-|элсэн чихэр,|,sugar
+"элсэн чихэр,",sugar
 үхэл,death
 нэлээн,pretty
 ур чадвар,skill

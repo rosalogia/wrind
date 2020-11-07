@@ -548,7 +548,7 @@
 ກ້ວາງ,wide
 ປ່ອຍ,sail
 ອຸປະກອນການ,material
-|ແຕ່ສ່ວນຫນຶ່ງ,|,fraction
+"ແຕ່ສ່ວນຫນຶ່ງ,",fraction
 ປ່າໄມ້,forest
 ນັ່ງ,sit
 ເຊື້ອຊາດ,race
@@ -754,7 +754,7 @@ lake,lake
 ອັນຕະລາຍ,danger
 ຫມາກໄມ້,fruit
 ອຸດົມສົມບູນ,rich
-|, ເປືອກຫນາ|,thick
+", ເປືອກຫນາ",thick
 ສປປລ,soldier
 ຂະບວນການ,process
 ປະຕິບັດງານ,operate
@@ -885,7 +885,7 @@ lake,lake
 ເຄື່ອງດື່ມ,drink
 ເກີດຂຶ້ນ,occur
 ສະຫນັບສະຫນູນ,support
-|ປາກເວົ້າ, ຂີດ|,speech
+"ປາກເວົ້າ, ຂີດ",speech
 ລັກສະນະ,nature
 ລະດັບ,range
 ຄອມ,steam

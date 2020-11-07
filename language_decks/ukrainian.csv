@@ -357,7 +357,7 @@
 сила,force
 синій,blue
 об’єкт,object
-|вирішити,|,decide
+"вирішити,",decide
 поверхню,surface
 глибоко,deep
 місяць,moon
@@ -499,14 +499,14 @@
 голос,voice
 енергія,energy
 охота,hunt
-|ймовірно,|,probable
+"ймовірно,",probable
 ліжко,bed
 брат,brother
 яйце,egg
 поїздка,ride
 клітин,cell
-|вважають,|,believe
-|можливо,|,perhaps
+"вважають,",believe
+"можливо,",perhaps
 вибирати,pick
 раптове,sudden
 вважати,count

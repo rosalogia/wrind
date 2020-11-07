@@ -21,11 +21,11 @@
 аммо,but
 чӣ,what
 баъзе,some
-|аст,|,is
+"аст,",is
 ин,it
 шумо,you
 ё,or
-|буд,|,had
+"буд,",had
 дар,the
 аз,of
 ба,to
@@ -42,12 +42,12 @@
 онҳо,their
 вақт,time
 агар,if
-|хоҳад,|,will
+"хоҳад,",will
 чӣ хел,how
 гуфт:,said
 як,an
 ҳар як,each
-|мегӯям,|,tell
+"мегӯям,",tell
 кунад,does
 маҷмӯи,set
 се,three
@@ -250,7 +250,7 @@
 шимол,north
 китоб,book
 анҷом,carry
-|гирифта,|,took
+"гирифта,",took
 илм,science
 хӯрдан,eat
 хона,room
@@ -262,9 +262,9 @@
 ист,stop
 бор,once
 база,base
-|мешунавед,|,hear
+"мешунавед,",hear
 асп,horse
-|набуред,|,cut
+"набуред,",cut
 ҳосил,sure
 тамошо кардан,watch
 ранг,color
@@ -341,7 +341,7 @@
 проблема,problem
 порчаи,piece
 гуфт,told
-|медонист,|,knew
+"медонист,",knew
 гузаштан,pass
 зеро,since
 боло,top
@@ -373,7 +373,7 @@
 тилло,gold
 имконпазир,possible
 ҳавопаймо,plane
-|бартобед,|,stead
+"бартобед,",stead
 хушк,dry
 ҳайрат,wonder
 механданд,laugh
@@ -424,7 +424,7 @@
 иҷро,done
 зебоӣ,beauty
 рондан,drive
-|истода,|,stood
+"истода,",stood
 дар бар гирад,contain
 пеш,front
 таълим,teach
@@ -448,7 +448,7 @@
 офаридан,produce
 далели,fact
 фазо,space
-|шунидам,|,heard
+"шунидам,",heard
 беҳтарин,best
 соат,hour
 хубтар,better
@@ -967,7 +967,7 @@ subtract,subtract
 паҳншавии,spread
 тартиб,arrange
 ӯрдугоҳ,camp
-|мебофтаанд,|,invent
+"мебофтаанд,",invent
 пахта,cotton
 Бон,born
 муайян кардан,determine
