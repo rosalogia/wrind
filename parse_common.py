@@ -31,16 +31,10 @@ for result in results:
     except IndexError:
         try:
             language_name = str(result.find("a").contents[0])
-            language_name = language_name.split(" ", 1)[0].strip()
+            language_name = language_name.split("(", 1)[0].strip()
             language_names.append(language_name)
         except IndexError:
             language_names.append(language_name.strip())
-
-
-# Creates a csv file of just the language names
-with open("language_decks/list_of_languages.csv", "w", newline="") as csvfile:
-    writer = csv.writer(csvfile, quotechar="|", quoting=csv.QUOTE_MINIMAL)
-    writer.writerows([language_names])
 
 
 # This loop iterates through every sub-page of 1000commonwords, parsing out the the foreign/translation words and inputting them into a CSV
