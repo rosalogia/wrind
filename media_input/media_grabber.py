@@ -3,14 +3,16 @@ import wikipedia
 from pysubparser import parser as psparser
 from .set_generator import generate_sets
 
+
 def wikipedia_parser(parsed_url, splits=1, set_directory="."):
     lang = parsed_url.netloc.split(".")[0]
     title = parsed_url.path.split("/")
 
     wikipedia.set_lang(lang)
     page = wikipedia.page(title=title)
-    
+
     generate_sets(page.content, splits, set_directory)
+
 
 def subtitles_parser(subtitle_file, splits=1, set_directory="."):
     subs = psparser.parse(subtitle_file)
@@ -23,6 +25,7 @@ def subtitles_parser(subtitle_file, splits=1, set_directory="."):
 
     text = " ".join(lines)
     generate_sets(text, splits, set_directory)
+
 
 def router(inData, url=True, splits=1, set_directory="."):
     if url:
