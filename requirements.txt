@@ -1,5 +1,7 @@
 beautifulsoup4
 requests
+flask
+selenium
 google-cloud-translate
 wikipedia
 pysub-parser

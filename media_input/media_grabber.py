@@ -6,7 +6,7 @@ from .set_generator import generate_sets
 
 def wikipedia_parser(parsed_url, splits=1, set_directory="."):
     lang = parsed_url.netloc.split(".")[0]
-    title = parsed_url.path.split("/")
+    title = parsed_url.path.split("/")[-1]
 
     wikipedia.set_lang(lang)
     page = wikipedia.page(title=title)
@@ -29,7 +29,7 @@ def subtitles_parser(subtitle_file, splits=1, set_directory="."):
 
 def router(inData, url=True, splits=1, set_directory="."):
     if url:
-        parsed_url = urlparse(unquote(url))
+        parsed_url = urlparse(unquote(inData))
         if "wikipedia" in parsed_url.netloc:
             wikipedia_parser(parsed_url, splits, set_directory)
     elif inData.endswith((".srt", ".ass", ".ssa", ".sub")):
