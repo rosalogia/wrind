@@ -26,12 +26,16 @@
         {% else %}
             <h2>Input a Website or Language</h2>
         {% endif %}
-        <form id="search" method="POST">
-            <h3 id="error">Invalid Language</h3>
+
             {% if text_area %}
+            <form action="/getFile" id="search" method="POST">
+                <h3 id="error">Invalid Language</h3>
+                <input type="file" class="custom-file-input" name="srt">
                 <textarea id="advinput" name="text" form="search"></textarea>
                 <input type="submit" id="submit" value="Submit">    
             {% else %}
+            <form id="search" method="POST">
+                <h3 id="error">Invalid Language</h3>
                 <input type="text" name="text" id="input" contenteditable="true">
             {% endif %}
             <a id="adv" href="/adv">⚙ Advanced</a>

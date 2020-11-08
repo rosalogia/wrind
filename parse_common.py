@@ -38,7 +38,7 @@ for result in results:
 # This loop iterates through every sub-page of 1000commonwords, parsing out the the foreign/translation words and inputting them into a CSV
 for language_name in language_names:
     try:
-        file_name = "frontend/language_decks/" + language_name.lower() + ".csv"
+        file_name = "language_decks/" + language_name.lower() + ".csv"
         language_name = (
             language_name.split(" ", 1)[0].strip().lower()
             + "-"
@@ -47,7 +47,7 @@ for language_name in language_names:
     except IndexError:
         pass
     try:
-        file_name = "frontend/language_decks/" + language_name.lower() + ".csv"
+        file_name = "language_decks/" + language_name.lower() + ".csv"
         langURL = (
             "https://1000mostcommonwords.com/1000-most-common-"
             + language_name.lower()
