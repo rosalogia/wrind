@@ -38,6 +38,7 @@ for result in results:
 # This loop iterates through every sub-page of 1000commonwords, parsing out the the foreign/translation words and inputting them into a CSV
 for language_name in language_names:
     try:
+        file_name = "language_decks/" + language_name.lower() + ".csv"
         language_name = (
             language_name.split(" ", 1)[0].strip().lower()
             + "-"
