@@ -1,6 +1,7 @@
 from flask import Flask, render_template, url_for, request, send_file, redirect
 import csv
 import os.path
+import os
 from os import path
 from media_input.media_grabber import router
 
@@ -60,13 +61,37 @@ def convText():
         )
 
 
-@app.route("/getFile", methods=["GET", "POST"])
+app.config["FILE_UPLOADS"] = "./uploads"
+
+
+@app.route("/adv", methods=["GET", "POST"])
 def advancedSubmit():
+    print("Subtitle Saved")
     if request.method == "POST":
-        if request.files:
-            subtitles = request.files["srt"]
-            print(subtitles)
-            return redirect(request.url)
+        try:
+            text = request.form["text"]
+            print(text)
+            router(text, url=False)
+            return send_file(
+                "set_1.csv",
+                mimetype="text/csv",
+                attachment_filename="set_1.csv",
+                as_attachment=True,
+            )
+        except ValueError:
+            subtitle = request.files["file"]
+            print(subtitle)
+            subtitle.save(os.path.join(app.config["FILE_UPLOADS"], subtitle.filename))
+            router("uploads/" + subtitle.filename, url=False)
+            os.remove("./uploads/" + subtitle.filename)
+            return send_file(
+                "set_1.csv",
+                mimetype="text/csv",
+                attachment_filename="set_1.csv",
+                as_attachment=True,
+            )
+
+    return redirect(url_for("index"))
 
 
 if __name__ == "__main__":

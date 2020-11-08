@@ -23,6 +23,7 @@ body {
 }
 #title h2 {
     font-size:16px;
+    margin-bottom:0;
 }
 
 #input {
@@ -35,6 +36,7 @@ body {
     font-family: Cascadia Mono;
     white-space: pre;
     word-break: break-word; 
+    opacity:.8;
 }
 
 input:focus, textarea:focus, select:focus{
@@ -89,10 +91,41 @@ a {
     padding-top:1%;
     padding-bottom:1%;
     padding-left:1%;
+    color:black;
+    opacity:.8;
     border:0;
     font-family: Cascadia Mono;
-
 }
+
+#input:hover, #advinput:hover {
+    opacity: .9;
+}
+
+label.myLabel input[type="file"] {
+    position:absolute;
+    top: -1000px;
+}
+
+/***** Example custom styling *****/
+.myLabel {
+    font-size:12px;
+    border-radius: 8px;
+    padding: 2px 5px;
+    margin: 2px;
+    background: rgba(0, 172, 193, .5);
+    display: inline-block;
+    text-shadow:none;
+    margin-bottom:10px;
+}
+
+.myLabel:hover {
+    cursor:pointer;
+}
+
+.myLabel :valid + span {
+    color: white;
+}
+
 
 @-webkit-keyframes STAR-MOVE {
 	from {
