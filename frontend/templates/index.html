@@ -21,7 +21,11 @@
     <div id="foreground"></div>
     <div id="title">
         <h1>Wrind</h1>
-        <h2>Input a Website or Language</h2>
+        {% if text_area %}
+            <h2>Paste Text</h2>
+        {% else %}
+            <h2>Input a Website or Language</h2>
+        {% endif %}
         <form id="search" method="POST">
             <h3 id="error">Invalid Language</h3>
             {% if text_area %}

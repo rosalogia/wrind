@@ -22,7 +22,6 @@ def submit():
 @app.route("/getCSV")    
 def getCSV():
     global text
-    text = request.form['text']
     try:
         filename = text.lower() + ".csv"
         return send_file('language_decks/' + filename, mimetype='text/csv', attachment_filename=filename, as_attachment=True)
@@ -35,7 +34,7 @@ def convText():
     global text_area
     if text_area:
         text_area = False
-        return render_template('index.html', dl_visible="none", err_visible="none", text_area=False) 
+        return redirect(url_for('index'))
     else:
         text_area = True
         return render_template('index.html', dl_visible="none", err_visible="none", text_area=True)  
