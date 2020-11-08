@@ -1,2 +1,5 @@
 beautifulsoup4
 requests
+google-cloud-translate
+wikipedia
+pysub-parser
