@@ -63,7 +63,8 @@ def convText():
 
 app.config["FILE_UPLOADS"] = "./uploads"
 
-@app.route("/adv",methods=["GET","POST"])
+
+@app.route("/adv", methods=["GET", "POST"])
 def advancedSubmit():
     print("Subtitle Saved")
     if request.method == "POST":
@@ -81,7 +82,7 @@ def advancedSubmit():
             subtitle = request.files["file"]
             print(subtitle)
             subtitle.save(os.path.join(app.config["FILE_UPLOADS"], subtitle.filename))
-            router('uploads/' + subtitle.filename, url=False)
+            router("uploads/" + subtitle.filename, url=False)
             os.remove("./uploads/" + subtitle.filename)
             return send_file(
                 "set_1.csv",
@@ -91,7 +92,6 @@ def advancedSubmit():
             )
 
     return redirect(url_for("index"))
-
 
 
 if __name__ == "__main__":
