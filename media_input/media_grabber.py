@@ -34,5 +34,9 @@ def router(inData, url=True, splits=1, set_directory="."):
             wikipedia_parser(parsed_url, splits, set_directory)
     elif inData.endswith((".srt", ".ass", ".ssa", ".sub")):
         subtitles_parser(inData, splits, set_directory)
-    else:
+    elif inData.endswith((".txt", ".md")):
+        with open(inData) as f:
+            text = f.read()
         generate_sets(text, splits, set_directory)
+    else:
+        generate_sets(inData, splits, set_directory)
