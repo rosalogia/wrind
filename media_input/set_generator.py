@@ -2,6 +2,8 @@ import re
 from google.cloud import translate_v2 as translate
 import csv
 from html import unescape
+from zipfile import ZipFile
+import os
 
 
 def cleanse(text):
@@ -41,7 +43,9 @@ def translation_table(text):
     word_set = sort_by_commonality(text)
 
     def translate_word(word):
-        translation_result = translate_client.translate(word, source_language=detected_language)
+        translation_result = translate_client.translate(
+            word, source_language=detected_language
+        )
         translated_text = translation_result["translatedText"]
         return unescape(translated_text)
 
@@ -54,7 +58,7 @@ def chunks(l, n):
     rem = len(l) % n
     inner_max = len(l[:-rem]) if rem != 0 else len(l)
 
-    splits = [l[i:i + split_size] for i in range(0, inner_max, split_size)]
+    splits = [l[i : i + split_size] for i in range(0, inner_max, split_size)]
 
     if rem != 0:
         splits[-1].extend(l[-rem:])
@@ -69,8 +73,13 @@ def generate_sets(text, splits=1, set_directory="."):
     split_sets = chunks(translations, splits)
 
     for i in range(splits):
-        with open(f"{set_directory}/set_{i+1}.csv", "w", newline="") as set_file:
+        file_path = f"{set_directory}/set_{i+1}.csv"
+        with open(file_path, "w", newline="") as set_file:
             set_writer = csv.writer(set_file)
             for (src, tgt) in split_sets[i]:
                 if src != tgt:
                     set_writer.writerow([src, tgt])
+        if splits > 1:
+            with ZipFile(f"{set_directory}/sets.zip", "a") as set_zip:
+                set_zip.write(file_path)
+                os.remove(file_path)
