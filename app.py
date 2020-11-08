@@ -7,7 +7,6 @@ from urllib.parse import quote as urlquote, unquote as urlunquote
 from media_input.media_grabber import router
 
 app = Flask(__name__)
-text_area = False
 
 
 @app.route("/")
@@ -52,15 +51,9 @@ def getCSV(textfile):
 
 @app.route("/adv")
 def convText():
-    global text_area
-    if text_area:
-        text_area = False
-        return redirect(url_for("index"))
-    else:
-        text_area = True
-        return render_template(
-            "index.html", dl_visible="none", err_visible="none", text_area=True
-        )
+    return render_template(
+        "index.html", dl_visible="none", err_visible="none", text_area=True
+    )
 
 
 app.config["FILE_UPLOADS"] = "./uploads"

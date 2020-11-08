@@ -33,12 +33,13 @@
                 <label id="file-upload" class="myLabel"><input type="file" class="custom-file-input" name="file"><span>Upload</span></label>
                 <textarea id="advinput" name="text" form="search"></textarea>
                 <input type="submit" id="submit" value="Submit">    
+            <a id="adv" href="/">← Back</a>
         {% else %}
         <form id="search" method="POST">
                 <h3 id="error">Invalid Language</h3>
                 <input type="text" name="text" id="input" contenteditable="true">
-            {% endif %}
             <a id="adv" href="/adv">⚙ Advanced</a>
+            {% endif %}
         </form>
         <button id="download">
             <a href="/getCSV/{{ textfile }}">Download CSV</a>
