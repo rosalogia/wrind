@@ -46,7 +46,7 @@ with open("language_decks/list_of_languages.csv", "w", newline="") as csvfile:
 # This loop iterates through every sub-page of 1000commonwords, parsing out the the foreign/translation words and inputting them into a CSV
 for language_name in language_names:
     try:
-        file_name = "language_decks/" + language_name.lower() + ".csv"
+        file_name = "frontend/language_decks/" + language_name.lower() + ".csv"
         langURL = (
             "https://1000mostcommonwords.com/1000-most-common-"
             + language_name.lower()
